@@ -1,17 +1,2 @@
-html{
-    box-sizing: border-box;
-}
-*,
-*::after,
-*::before{
-    box-sizing: inherit;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-color: red;
-}
-.box{
-    padding: 0;
-    margin: 0;
-}
+@import 'vars';
+@import 'global';
