@@ -7,7 +7,14 @@ html{
     box-sizing: inherit;
 }
 a{
+    text-decoration: none;
     display: inline-block;
+}
+body{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: $color-text;
 }
 ul, li{
     margin: 0;
