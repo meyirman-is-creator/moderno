@@ -17,6 +17,7 @@ body{
     color: $color-text;
 }
 ul, li{
+    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -38,7 +39,7 @@ ul, li{
 }
 .title{
     font-size: 36px;
-    font-weight: 700;
+    @include f700;
     line-height: 60px;
     text-align: center;
     margin-bottom: 30px;
